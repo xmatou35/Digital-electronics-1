@@ -24,7 +24,7 @@
 
 ## K.Map
 
-### ![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/Labs/01-gates/images/kmap.jpg)
+### ![ScreenShot](https://https://github.com/xmatou35/Digital-electronics-1/tree/main/Labs/02-logic/image/kmap.jpg)
 
 ## VHDL code
 
