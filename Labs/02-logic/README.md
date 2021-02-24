@@ -24,9 +24,8 @@
 
 ## K.Map
 
-	### ![ScreenShot](https://https://github.com/xmatou35/Digital-electronics-1/tree/main/Labs/02-logic/image/kmap.jpg)
 ### ![ScreenShot](https://github.com/xmatou35/Digital-electronics-1/blob/main/Labs/02-logic/image/kmap.jpg)
-https://github.com/xmatou35/Digital-electronics-1/blob/main/Labs/02-logic/image/kmap.jpg
+#### *https://github.com/xmatou35/Digital-electronics-1/blob/main/Labs/02-logic/image/kmap.jpg*
 
 ## VHDL code
 
