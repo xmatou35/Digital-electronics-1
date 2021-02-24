@@ -31,18 +31,7 @@
 
 ### *testbranch* 
 
-#### ------------------------------------------------------------------------
---
--- Testbench for 2-bit binary comparator.
--- EDA Playground
---
--- Copyright (c) 2020-2021 Tomas Fryza
--- Dept. of Radio Electronics, Brno University of Technology, Czechia
--- This work is licensed under the terms of the MIT license.
---
-------------------------------------------------------------------------
-
-library ieee;
+#### library ieee;
 use ieee.std_logic_1164.all;
 
 ------------------------------------------------------------------------
@@ -140,18 +129,7 @@ end architecture testbench;
 
 ### Design
 
-#### ------------------------------------------------------------------------
---
--- Example of 2-bit binary comparator using the when/else assignment.
--- EDA Playground
---
--- Copyright (c) 2020-2021 Tomas Fryza
--- Dept. of Radio Electronics, Brno University of Technology, Czechia
--- This work is licensed under the terms of the MIT license.
---
-------------------------------------------------------------------------
-
-library ieee;
+#### library ieee;
 use ieee.std_logic_1164.all;
 
 ------------------------------------------------------------------------
