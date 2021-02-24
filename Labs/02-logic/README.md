@@ -2,24 +2,25 @@
 
 ## Truth table
 
-### | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
-| :-: | :-: | :-: | :-: | :-: | :-: |
-| 0 | 0 0 | 0 0 | 0 | 1 | 0 |
-| 1 | 0 0 | 0 1 | 0 | 0 | 1 |
-| 2 | 0 0 | 1 0 | 0 | 0 | 1 |
-| 3 | 0 0 | 1 1 | 0 | 0 | 1 |
-| 4 | 0 1 | 0 0 | 1 | 0 | 0 |
-| 5 | 0 1 | 0 1 | 0 | 1 | 0 |
-| 6 | 0 1 | 1 0 | 0 | 0 | 1 |
-| 7 | 0 1 | 1 1 | 0 | 0 | 1 |
-| 8 | 1 0 | 0 0 | 1 | 0 | 0 |
-| 9 | 1 0 | 0 1 | 1 | 0 | 0 |
-| 10 | 1 0 | 1 0 | 0 | 1 | 0 |
-| 11 | 1 0 | 1 1 | 1 | 0 | 0 |
-| 12 | 1 1 | 0 0 | 1 | 0 | 0 |
-| 13 | 1 1 | 0 1 | 1 | 0 | 0 |
-| 14 | 1 1 | 1 0 | 0 | 0 | 1 |
-| 15 | 1 1 | 1 1 | 0 | 1 | 0 |
+### 
+	| **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
+	| :-: | :-: | :-: | :-: | :-: | :-: |
+	| 0 | 0 0 | 0 0 | 0 | 1 | 0 |
+	| 1 | 0 0 | 0 1 | 0 | 0 | 1 |
+	| 2 | 0 0 | 1 0 | 0 | 0 | 1 |
+	| 3 | 0 0 | 1 1 | 0 | 0 | 1 |
+	| 4 | 0 1 | 0 0 | 1 | 0 | 0 |
+	| 5 | 0 1 | 0 1 | 0 | 1 | 0 |
+	| 6 | 0 1 | 1 0 | 0 | 0 | 1 |
+	| 7 | 0 1 | 1 1 | 0 | 0 | 1 |
+	| 8 | 1 0 | 0 0 | 1 | 0 | 0 |
+	| 9 | 1 0 | 0 1 | 1 | 0 | 0 |
+	| 10 | 1 0 | 1 0 | 0 | 1 | 0 |
+	| 11 | 1 0 | 1 1 | 1 | 0 | 0 |
+	| 12 | 1 1 | 0 0 | 1 | 0 | 0 |
+	| 13 | 1 1 | 0 1 | 1 | 0 | 0 |
+	| 14 | 1 1 | 1 0 | 0 | 0 | 1 |
+	| 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
 ## K.Map
 
@@ -120,53 +121,55 @@
 			report "Test failed for input combination: 0100, 0000" severity error;			-- chyba
 
 
-        -- Report a note at the end of stimulus process
-        report "Stimulus process finished" severity note;
-        wait;
-    end process p_stimulus;
+       	 -- Report a note at the end of stimulus process
+       	 report "Stimulus process finished" severity note;
+       	 wait;
+   	 end process p_stimulus;
 
-end architecture testbench;
+	end architecture testbench;
 
 ### Design
 
-#### library ieee;
-use ieee.std_logic_1164.all;
+#### 
+	library ieee;
+	use ieee.std_logic_1164.all;
 
-------------------------------------------------------------------------
--- Entity declaration for 2-bit binary comparator
-------------------------------------------------------------------------
-entity comparator_2bit is
-    port(
+	------------------------------------------------------------------------
+	-- Entity declaration for 2-bit binary comparator
+	------------------------------------------------------------------------
+	entity comparator_2bit is
+    	port(
         a_i           : in  std_logic_vector(4 - 1 downto 0);
         b_i			  : in  std_logic_vector(4 - 1 downto 0);
         B_less_A_o    : out std_logic;	      
         B_greater_A_o : out std_logic;
         B_equals_A_o   : out std_logic
         
-    );
-end entity comparator_2bit;
+   	 );
+	end entity comparator_2bit;
 
-------------------------------------------------------------------------
--- Architecture body for 2-bit binary comparator
-------------------------------------------------------------------------
-architecture Behavioral of comparator_2bit is
-begin
-    B_less_A_o   <= '1' when (b_i < a_i) else '0';
+	------------------------------------------------------------------------
+	-- Architecture body for 2-bit binary comparator
+	------------------------------------------------------------------------
+	architecture Behavioral of comparator_2bit is
+	begin
+   	 B_less_A_o   <= '1' when (b_i < a_i) else '0';
 	B_greater_A_o<= '1' when (b_i > a_i) else '0';
-    B_equals_A_o <= '1' when (b_i = a_i) else '0';
+   	 B_equals_A_o <= '1' when (b_i = a_i) else '0';
 
-end architecture Behavioral;
+	end architecture Behavioral;
 
 ### console
 
-#### [2021-02-23 17:32:48 EST] ghdl -i design.vhd testbench.vhd  && ghdl -m  tb_comparator_2bit && ghdl -r  tb_comparator_2bit   --vcd=dump.vcd && sed -i 's/^U/X/g; s/^-/X/g; s/^H/1/g; s/^L/0/g' dump.vcd 
-analyze design.vhd
-analyze testbench.vhd
-elaborate tb_comparator_2bit
-testbench.vhd:52:9:@0ms:(report note): Stimulus process started
-testbench.vhd:125:24:@1700ns:(assertion error): Test failed for input combination: 0100, 0000
-testbench.vhd:130:9:@1700ns:(report note): Stimulus process finished
-Finding VCD file...
-./dump.vcd
-[2021-02-23 17:32:49 EST] Opening EPWave...
-Done
+#### 
+	[2021-02-23 17:32:48 EST] ghdl -i design.vhd testbench.vhd  && ghdl -m  tb_comparator_2bit && ghdl -r  tb_comparator_2bit   --vcd=dump.vcd && sed -i 's/^U/X/g; s/^-/X/g; s/^H/1/g; s/^L/0/g' dump.vcd 
+	analyze design.vhd
+	analyze testbench.vhd
+	elaborate tb_comparator_2bit
+	testbench.vhd:52:9:@0ms:(report note): Stimulus process started
+	testbench.vhd:125:24:@1700ns:(assertion error): Test failed for input combination: 0100, 0000
+	testbench.vhd:130:9:@1700ns:(report note): Stimulus process finished
+	Finding VCD file...
+	./dump.vcd
+	[2021-02-23 17:32:49 EST] Opening EPWave...
+	Done
