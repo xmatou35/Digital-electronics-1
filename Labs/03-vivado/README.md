@@ -40,17 +40,17 @@ p_stimulus : process
 ```
 ### Screenshot waveforms
 
-![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/Labs/03-vivado/Images/waveform.jpg)
+![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/waveform.jpg)
 
 ## Vivado tutorial
-![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/Labs/03-vivado/Images/1.jpg)
-![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/Labs/03-vivado/Images/2.jpg)
-![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/Labs/03-vivado/Images/3.jpg)
-![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/Labs/03-vivado/Images/4.jpg)
-![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/Labs/03-vivado/Images/5.jpg)
-![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/Labs/03-vivado/Images/6.jpg)
-![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/Labs/03-vivado/Images/7.jpg)
-![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/Labs/03-vivado/Images/8.jpg)
-![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/Labs/03-vivado/Images/9.jpg)
+![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/1.jpg)
+![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/2.jpg)
+![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/3.jpg)
+![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/4.jpg)
+![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/5.jpg)
+![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/6.jpg)
+![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/7.jpg)
+![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/8.jpg)
+![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/9.jpg)
 
 ###### [? Top](#table-of-contents)
