@@ -42,7 +42,7 @@ p_stimulus : process
 #### ![ScreenShot](https://github.com/xmatou35/Digital-electronics-1/blob/main/Labs/03-vivado/Image/waveform.jpg)
 
 ## Vivado tutorial
-#### ![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/1.jpg)
+#### ![ScreenShot](https://github.com/xmatou35/Digital-Electronics-1/blob/Labs/03-vivado/Images/1.jpg)
 #### ![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/2.jpg)
 #### ![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/3.jpg)
 #### ![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/4.jpg)
