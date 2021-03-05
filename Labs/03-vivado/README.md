@@ -39,7 +39,7 @@ p_stimulus : process
     end process p_stimulus;
 ```
 ### Screenshot waveforms
-#### ![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/waveform.jpg)
+#### ![ScreenShot](https://github.com/xmatou35/Digital-electronics-1/blob/main/Labs/03-vivado/Image/waveform.jpg)
 
 ## Vivado tutorial
 #### ![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/1.jpg)
