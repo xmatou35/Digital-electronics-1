@@ -42,14 +42,14 @@ p_stimulus : process
 #### ![ScreenShot](https://github.com/xmatou35/Digital-electronics-1/blob/main/Labs/03-vivado/Image/waveform.jpg)
 
 ## Vivado tutorial
-#### ![ScreenShot](https://github.com/xmatou35/Digital-Electronics-1/blob/Labs/03-vivado/Images/1.jpg)
-#### ![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/2.jpg)
-#### ![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/3.jpg)
-#### ![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/4.jpg)
-#### ![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/5.jpg)
-#### ![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/6.jpg)
-#### ![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/7.jpg)
-#### ![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/8.jpg)
-#### ![ScreenShot](https://github.com/xmatou35/VUT-Digital-Electronics-1/blob/Labs/03-vivado/Images/9.jpg)
+#### ![ScreenShot](https://github.com/xmatou35/Digital-Electronics-1/blob/main/Labs/03-vivado/Image/1.jpg)
+#### ![ScreenShot](https://github.com/xmatou35/Digital-Electronics-1/blob/main/Labs/03-vivado/Image/2.jpg)
+#### ![ScreenShot](https://github.com/xmatou35/Digital-Electronics-1/blob/main/Labs/03-vivado/Image/3.jpg)
+#### ![ScreenShot](https://github.com/xmatou35/Digital-Electronics-1/blob/main/Labs/03-vivado/Image/4.jpg)
+#### ![ScreenShot](https://github.com/xmatou35/Digital-Electronics-1/blob/main/Labs/03-vivado/Image/5.jpg)
+#### ![ScreenShot](https://github.com/xmatou35/Digital-Electronics-1/blob/main/Labs/03-vivado/Image/6.jpg)
+#### ![ScreenShot](https://github.com/xmatou35/Digital-Electronics-1/blob/main/Labs/03-vivado/Image/7.jpg)
+#### ![ScreenShot](https://github.com/xmatou35/Digital-Electronics-1/blob/main/Labs/03-vivado/Image/8.jpg)
+#### ![ScreenShot](https://github.com/xmatou35/Digital-Electronics-1/blob/main/Labs/03-vivado/Image/9.jpg)
 
 ###### [? Top](#03-Vivado)
