@@ -49,27 +49,15 @@ begin
     --------------------------------------------------------------------
     p_stimulus : process
     begin
-        -- Report a note at the beginning of stimulus process
+
         report "Stimulus process started" severity note;
-
-
-        -- First test values
+        
         s_d <= "11"; s_c <= "10"; s_b <= "01"; s_a <= "00";
         s_sel <= "00"; wait for 100 ns;
         s_sel <= "01"; wait for 100 ns;
         s_sel <= "11"; wait for 100 ns;
         s_sel <= "10"; wait for 100 ns;
         
-        -- Expected output
-        -- assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
-        -- If false, then report an error
-        -- report "Test failed for input combination: 00, 00" severity error;
-        
-        
-        -- WRITE OTHER TEST CASES HERE
-
-
-        -- Report a note at the end of stimulus process
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
