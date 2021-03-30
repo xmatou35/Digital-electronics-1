@@ -1,0 +1,6 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Note: Stimulus process start
+Time: 0 ps  Iteration: 0  Process: /tb_d_latch/p_stimulus  File: C:/Users/Client/Desktop/matousek/Digital-electronics-1/Labs/07-ffs/project_1/project_1.srcs/sim_1/new/tb_d_latch.vhd
+Note: stimulus process finished
+Time: 380 ns  Iteration: 0  Process: /tb_d_latch/p_stimulus  File: C:/Users/Client/Desktop/matousek/Digital-electronics-1/Labs/07-ffs/project_1/project_1.srcs/sim_1/new/tb_d_latch.vhd
